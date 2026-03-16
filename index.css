@@ -4,12 +4,12 @@
     outline: 0;
     border: 0;
     box-sizing: border-box;
+    font-family: 'Roboto';
 }
 header{
     display: flex;
     padding: 32px 160px;
     justify-content: space-between;
-    border: red 1px solid;
 }
 .div-local{
     background-color: #EBE5F9;
@@ -29,4 +29,50 @@ header{
     padding: 8px;
     border-radius: 6px;
     gap: 12px;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+}
+.vantagens{
+    display: flex;
+    justify-content: center;
+}
+.table-vantagens{
+    width: 567px;
+    height: 84px;
+    display: flex;
+    flex-direction: row;
+}
+.carrinho2{
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+    background-color: #C47F17;
+    border-radius: 50%;
+}
+.caixa{
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+    background-color: #574F4D;
+    border-radius: 50%;
+}
+.timer{
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+    background-color: #DBAC2C;
+    border-radius: 50%;
+}
+.cafezinho{
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+    background-color: #8047F8;
+    border-radius: 50%;
+}
+.v1,.v2,.v3,.v4{
+    display: flex;
+    flex-direction: row;
 }
