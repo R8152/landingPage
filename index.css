@@ -5,11 +5,19 @@
     border: 0;
     box-sizing: border-box;
     font-family: 'Roboto';
-}
+    list-style: none; /* Essa função faz os items da lista ficarem sem pontuação */
+    font-family: "Roboto", sans-serif;
+} 
 header{
     display: flex;
     padding: 32px 160px;
     justify-content: space-between;
+}
+.div-header-right{
+    display: flex;
+    padding: 8px;
+    border-radius: 6px;
+    gap: 12px;
 }
 .div-local{
     background-color: #EBE5F9;
@@ -24,55 +32,73 @@ header{
     padding: 8px;
     border-radius: 6px;
 }
-.div-header-right{
-    display: flex;
-    padding: 8px;
-    border-radius: 6px;
-    gap: 12px;
-}
 section{
     display: flex;
+    padding: 0 160px;
     justify-content: space-around;
+    background-image: url(/Background.png);
+    background-size: cover;
 }
-.vantagens{
+.title_maininformar{
+    font-family: "Baloo 2", sans-serif;
+    font-size: 48px;
+    height: 124px;
+    width: 588px;
+    line-height: 130%;
+    color: #272221;
+}
+h1{width: 24ch}
+.subtitlemaininformar{
+    margin-bottom: 16px;
+    font-family: "Roboto", sans-serif;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap; /* Faz o texto quando diminuir o tamanho da aba ou da página */
+    font-size: 20px;
+    height: 52px;
+    line-height: 130%;/* Tamanho da linha */
+    width: 35%;
+    color: #403937;
 }
 .table-vantagens{
     width: 567px;
     height: 84px;
+    margin-bottom: 66px;
     display: flex;
+    justify-content: center;
     flex-direction: row;
+}
+.lista-vantagens{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 .carrinho2{
     width: 32px;
     height: 32px;
-    padding: 8px;
     background-color: #C47F17;
-    border-radius: 50%;
 }
 .caixa{
     width: 32px;
     height: 32px;
-    padding: 8px;
     background-color: #574F4D;
-    border-radius: 50%;
 }
 .timer{
     width: 32px;
     height: 32px;
-    padding: 8px;
     background-color: #DBAC2C;
-    border-radius: 50%;
 }
 .cafezinho{
     width: 32px;
     height: 32px;
-    padding: 8px;
     background-color: #8047F8;
-    border-radius: 50%;
 }
 .v1,.v2,.v3,.v4{
     display: flex;
-    flex-direction: row;
+    text-wrap: nowrap;
+    align-items: 12px;
+}
+.img-banner{
+    padding: 8px;
+    border-radius: 50%;
+    gap: 12px;
 }
