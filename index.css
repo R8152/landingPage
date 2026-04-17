@@ -39,6 +39,14 @@ section{
     background-image: url(/Background.png);
     background-size: cover;
 }
+.main_informar{
+    display: flex;
+    flex-direction: column;
+}
+.title_maininformar, .subtitlemaininformar{
+    display: flex;
+    flex-direction: column;
+}
 .title_maininformar{
     font-family: "Baloo 2", sans-serif;
     font-size: 48px;
@@ -101,4 +109,20 @@ h1{width: 24ch}
     padding: 8px;
     border-radius: 50%;
     gap: 12px;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+}
+.direcionar-produtos{
+    background-color: #EBE5F9;
+}
+.produtos{
+    display: flex;
+    background-color: #C47F17;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 6px;
+    color: black;
+    margin-top: 15px;
 }
