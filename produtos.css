@@ -1,1 +1,12 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.produto{
+    display: grid;
+    place-items: center;
+}
+h1, h2, .preco{
+    font-family: "Baloo 2";
+}
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss"

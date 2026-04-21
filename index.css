@@ -114,9 +114,6 @@ h1{width: 24ch}
     display: flex;
     flex-direction: row;
 }
-.direcionar-produtos{
-    background-color: #EBE5F9;
-}
 .produtos{
     display: flex;
     background-color: #C47F17;
