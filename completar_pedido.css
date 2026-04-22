@@ -21,16 +21,150 @@ header{
     font-weight: bold;
     padding-bottom: 15px;
 }
+.infos_pedido{
+    height: 372px;
+    width: 640px;
+    background-color: #F3F2F2;
+    border-radius: 2px;
+    line-height: 130%;
+}
+.text-endereco{
+    height: 44px;
+    width: 560px;
+    padding-left: 40px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.img-endereco{
+    padding-right: 8px;
+}
+.endereco{
+    display: flex;
+    flex-direction: column;
+}
+.text1-endereco{
+    font-size: 16px;
+    color: #403937;
+}
+.text2-endereco{
+    font-size: 14px;
+    color: #574F4D;
+    margin-bottom: 32px;
+}
+.informacoes{
+    margin-left: 40px;
+    margin-top: 32px;
+}
 .info1{
     height: 42px;
     width: 200px;
-    background-color: #F3F2F2;
+    background-color: #EDEDED;
     border: 1px solid #E6E5E5;
     border-radius: 4px;
+    padding: 12px;
     margin-bottom: 16px;
 }
 .cep{
-    text-align: center;
+    text-align: start;
+    margin-top: 12px;
+    margin-left: 12px;
+    color: #8D8686;
+    line-height: 130%;
+}
+.info2{
+    height: 42px;
+    width: 560px;
+    background-color: #EDEDED;
+    border: 1px solid #E6E5E5;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    padding: 12px;
+}
+.rua{
+    margin: 12px;
+    color: #8D8686;
+}
+.info3{
+    height: 42px;
+    width: 560px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 12px 0px;
+    
+}
+.div-numero{
+    height: 42px;
+    width: 200px;
+    background-color: #EDEDED;
+    border: 1px solid #E6E5E5;
+    border-radius: 4px;
+}
+.numero{
+    margin: 10px 12px 12px 12px;
+    height: 18px;
+    width: 176px;
+    line-height: 130%;
+    color: #8D8686;
+}
+.complemento{
+    height: 42px;
+    width: 348px;
+    background-color: #EDEDED;
+    border: 1px solid #E6E5E5;
+    border-radius: 4px;
+    display: flex;
+    justify-content: baseline;
+}
+.c1{
+    width: 274px;
+    line-height: 130%;
+    color: #8D8686;
+    margin: 10px 12px 12px 12px;
+}
+.c2{
+    line-height: 130%;
+    margin-right: 12px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    font-style: italic;
+    font-size: 12px;
+    color: #8D8686;
+}
+.info4{
+    height: 42px;
+    width: 560px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.i41{
+    height: 42px;
+    width: 200px;
+    background-color: #EDEDED;
+    color: #8D8686;
+    border: 1px solid #E6E5E5;
+    border-radius: 4px;
+    line-height: 130%;
+}
+.i42{
+    height: 42px;
+    width: 276px;
+    background-color: #EDEDED;
+    color: #8D8686;
+    border: 1px solid #E6E5E5;
+    border-radius: 4px;
+    line-height: 130%;
+}
+.i43{
+    height: 42px;
+    width: 60px;
+    background-color: #EDEDED;
+    color: #8D8686;
+    border: 1px solid #E6E5E5;
+    border-radius: 4px;
+    line-height: 130%;
 }
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss"
