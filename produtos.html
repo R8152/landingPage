@@ -10,7 +10,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
     <title>Coffee Delivery - Produtos</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="/produtos.css">
@@ -28,65 +27,95 @@
             </button>
         </div>
     </header>
-    <section>
+    <section class="mx-auto">
         <h1 class="text-[32px] font-extrabold font- ms-[160px]">Nossos Cafés</h1>
         <main class="produtos_total ms-[160px]">
-            <main class="produtos4 flex flex-row m-[40px]">
-               <div class="produto width-[256px] height-[310px] bg-[#F3F2F2] rounded-tr-lg rounded-bl-lg m-[32px]">
+            <main class="produtos4 flex flex-row m-[40px]"> <!-- 4 Produtos -->
+
+               <div class="produto width-[256px] height-[310px] bg-[#F3F2F2] rounded-tr-lg rounded-bl-lg m-[32px]"><!-- 1 Produto -->
                     <img src="/imagens2/Imagem 1.png" alt="img_expressotrad" class="-mt-[20px]">
                     <span class="classificar1 bg-[#F1E9C9] text-[10px] font-bold text-[#C47F17] p-[4px] rounded-full">TRADICIONAL</span>
                     <h2 class="text-[20px] font-extrabold font-">Expresso Tradicional</h2>
                     <p class="prod_desc text-[14px] font- text-[#8D8686] w-[216px] h-[36px] leading-[130%] text-center">O tradicional café feito com água quente e grãos moídos</p>
-                    <div><span class="text-[14px]">R$ </span><span class=" preco text-[24px] font-bold">10,90</span></div>
-                    <div class="rounded-md bg-[#E6E5E5] w-[72px] h-[38px] rounded-1g">
-                        <button class="text-[#8047F8] my-[12px] ">-</button>
-                        <span class="">1</span>
-                        <button class="text-[#8047F8] my-[12px]">+</button>
-                    </div>
-                    <button><img src="/Carrinho.png" alt="carrinho_compra"></button>
+
+                    <main class="flex flex-row">
+                        <div class="mr-[23px]">
+                            <span class="text-[14px]">R$ </span>
+                            <span class="preco text-[24px] font-bold">9,90</span>
+                        </div>
+                        <div class="rounded-md bg-[#E6E5E5] w-[72px] h-[38px]">
+                            <button class="ml-[8px] my-[12px]"><img src="/Vector (Stroke).png" alt="menos_prod"></button>
+                            <span class="my-[12px]">1</span>
+                            <button class="mr-[8px] my-[12px]"><img src="/Plus.png" alt="mais_prod"></button>
+                        </div>
+                        <button class="rounded-md p-[8px] bg-[#4B2995] ml-[8px]"><img src="/ShoppingCartSimple.png" alt="carrinho_prod"></button>
+                    </main>
+
                 </div>
-                <div class="produto width-[256px] height-[310px] bg-[#F3F2F2] rounded-tr-lg rounded-bl-lg m-[32px]">
+                <div class="produto width-[256px] height-[310px] bg-[#F3F2F2] rounded-tr-lg rounded-bl-lg m-[32px]"><!-- 1 Produto -->
                     <img src="/imagens2/Imagem 2.png" alt="expressoamericano" class="-mt-[20px]">
                     <span class="classificar1 bg-[#F1E9C9] text-[10px] font-bold text-[#C47F17] p-[4px] rounded-full">TRADICIONAL</span>
                     <h2 class="text-[20px] font-extrabold font-">Expresso Americano</h2>
                     <p class="prod_desc text-[14px] font- text-[#8D8686] w-[216px] h-[36px] leading-[130%] text-center">Expresso diluído, menos intenso que o tradicional</p>
-                    <div><span class="text-[14px]">R$ </span><span class=" preco text-[24px] font-bold">9,90</span></div>
-                    <div>
-                        <button>-</button>
-                        <span>1</span>
-                        <button>+</button>
-                    </div>
-                    <button><img src="/Carrinho.png" alt="carrinho_compra"></button>    
+                    
+                    <main class="flex flex-row"> 
+                        <div class="mr-[23px]">
+                            <span class="text-[14px]">R$ </span>
+                            <span class="preco text-[24px] font-bold">9,90</span>
+                        </div>
+                        <div class="rounded-md bg-[#E6E5E5] w-[72px] h-[38px]">
+                            <button class="ml-[8px] my-[12px]"><img src="/Vector (Stroke).png" alt="menos_prod"></button>
+                            <span class="my-[12px]">1</span>
+                            <button class="mr-[8px] my-[12px]"><img src="/Plus.png" alt="mais_prod"></button>
+                        </div>
+                        <button class="rounded-md p-[8px] bg-[#4B2995] ml-[8px]"><img src="/ShoppingCartSimple.png" alt="carrinho_prod"></button>    
+                    </main>
+
                 </div>
-                <div class="produto width-[256px] height-[310px] bg-[#F3F2F2] rounded-tr-lg rounded-bl-lg m-[32px]">
+                <div class="produto width-[256px] height-[310px] bg-[#F3F2F2] rounded-tr-lg rounded-bl-lg m-[32px]"><!-- 1 Produto -->
                     <img src="/imagens2/Coffee.png" alt="expressocremoso" class="-mt-[20px]">
                     <span class="classificar1 bg-[#F1E9C9] text-[10px] font-bold text-[#C47F17] p-[4px] rounded-full">TRADICIONAL</span>
                     <h2 class="text-[20px] font-extrabold font-">Expresso Cremoso</h2>
                     <p class="prod_desc text-[14px] font- text-[#8D8686] w-[216px] h-[36px] leading-[130%] text-center">Café expresso tradicional com espuma cremosa</p>
-                    <div><span class="text-[14px]">R$ </span><span class=" preco text-[24px] font-bold">10,90</span></div>
-                    <div>
-                        <button>-</button>
-                        <span>1</span>
-                        <button>+</button>
-                    </div>
-                    <button><img src="/Carrinho.png" alt="carrinho_compra"></button>
+                    
+                    <main class="flex flex-row">
+                        <div class="mr-[23px]">
+                            <span class="text-[14px]">R$ </span>
+                            <span class=" preco text-[24px] font-bold">9,90</span>
+                        </div>
+                        <div class="rounded-md bg-[#E6E5E5] w-[72px] h-[38px]">
+                            <button class="ml-[8px] my-[12px]"><img src="/Vector (Stroke).png" alt="menos_prod"></button>
+                            <span class="my-[12px]">1</span>
+                            <button class="mr-[8px] my-[12px]"><img src="/Plus.png" alt="mais_prod"></button>
+                        </div>
+                        <button class="rounded-md p-[8px] bg-[#4B2995] ml-[8px]"><img src="/ShoppingCartSimple.png" alt="carrinho_prod"></button>
+                    </main>
                 </div>
-                <div class="produto width-[256px] height-[310px] bg-[#F3F2F2] rounded-tr-lg rounded-bl-lg m-[32px]">
+                <div class="produto width-[256px] height-[310px] bg-[#F3F2F2] rounded-tr-lg rounded-bl-lg m-[32px]"><!-- 1 Produto -->
                     <img src="/imagens2/Imagem 4.png" alt="expressogelado" class="-mt-[20px]">
-                    <span class="classificar1 bg-[#F1E9C9] text-[10px] font-bold text-[#C47F17] p-[4px] rounded-full">TRADICIONAL</span>
-                    <span class="classificar1 bg-[#F1E9C9] text-[10px] font-bold text-[#C47F17] p-[4px] rounded-full">GELADO</span>
+                    <div class="flex flex-row mx-[14px]">
+                        <span class="classificar1 bg-[#F1E9C9] text-[10px] font-bold text-[#C47F17] p-[4px] rounded-full">TRADICIONAL</span>
+                        <span class="classificar1 bg-[#F1E9C9] text-[10px] font-bold text-[#C47F17] p-[4px] rounded-full">GELADO</span>
+                    </div>
                     <h2 class="text-[20px] font-extrabold font-">Expresso Gelado</h2>
                     <p class="prod_desc text-[14px] font- text-[#8D8686] w-[216px] h-[36px] leading-[130%] text-center">Bebida preparada com café expresso e cubos de gelo</p>
-                    <div><span class="text-[14px]">R$ </span><span class=" preco text-[24px] font-bold">10,90</span></div>
-                    <div>
-                        <button>-</button>
-                        <span>1</span>
-                        <button>+</button>
-                    </div>
+                    <main class="flex flex-row">
+                        <div class="mr-[23px]">
+                            <span class="text-[14px]">R$ </span>
+                            <span class=" preco text-[24px] font-bold">9,90</span>
+                        </div>
+                        <div class="rounded-md bg-[#E6E5E5] w-[72px] h-[38px]">
+                            <button class="ml-[8px] my-[12px]"><img src="/Vector (Stroke).png" alt="menos_prod"></button>
+                            <span class="my-[12px]">1</span>
+                            <button class="mr-[8px] my-[12px]"><img src="/Plus.png" alt="mais_prod"></button>
+                        </div>
+                        <button class="rounded-md p-[8px] bg-[#4B2995] ml-[8px]"><img src="/ShoppingCartSimple.png" alt="carrinho_prod"></button>
+                    </main>
                 </div>
             </main>
-            <main class="produtos4 flex flex-row m-[40px]">
-                <div class="produto width-[256px] height-[310px] bg-[#F3F2F2] rounded-tr-lg rounded-bl-lg m-[32px]">
+            <main class="produtos4 flex flex-row m-[40px]"><!-- 4 Produtos -->
+                
+                <div class="produto width-[256px] height-[310px] bg-[#F3F2F2] rounded-tr-lg rounded-bl-lg m-[32px]"><!-- 1 Produto -->
                     <img src="/imagens2/Imagem5.png" alt="cafeleite" class="-mt-[20px]">
                     <div class="flex flex-row m-[14px]">
                         <span class="classificar1 bg-[#F1E9C9] text-[10px] font-bold text-[#C47F17] p-[4px] rounded-full">TRADICIONAL</span>
@@ -94,14 +123,20 @@
                     </div>
                     <h2 class="text-[20px] font-extrabold font-">Café com Leite</h2>
                     <p class="prod_desc text-[14px] font- text-[#8D8686] w-[216px] h-[36px] leading-[130%] text-center">Meio a meio de expresso tradicional com leite vaporizado</p>
-                    <div><span class="text-[14px]">R$ </span><span class=" preco text-[24px] font-bold">9,90</span></div>
-                    <div>
-                        <button>-</button>
-                        <span>1</span>
-                        <button>+</button>
-                    </div>
+                    <main class="flex flex-row">
+                        <div class="mr-[23px]">
+                            <span class="text-[14px]">R$ </span>
+                            <span class=" preco text-[24px] font-bold">9,90</span>
+                        </div>
+                        <div class="rounded-md bg-[#E6E5E5] w-[72px] h-[38px]">
+                            <button class="ml-[8px] my-[12px]"><img src="/Vector (Stroke).png" alt="menos_prod"></button>
+                            <span class="my-[12px]">1</span>
+                            <button class="mr-[8px] my-[12px]"><img src="/Plus.png" alt="mais_prod"></button>
+                        </div>
+                        <button class="rounded-md p-[8px] bg-[#4B2995] ml-[8px]"><img src="/ShoppingCartSimple.png" alt="carrinho_prod"></button>
+                    </main>
                 </div>
-                <div class="produto width-[256px] height-[310px] bg-[#F3F2F2] rounded-tr-lg rounded-bl-lg m-[32px]">
+                <div class="produto width-[256px] height-[310px] bg-[#F3F2F2] rounded-tr-lg rounded-bl-lg m-[32px]"><!-- 1 Produto -->
                     <img src="/imagens2/Imagem 6.png" alt="latte" class="-mt-[20px]">
                     <div class="flex flex-row m-[14px]">
                         <span class="classificar1 bg-[#F1E9C9] text-[10px] font-bold text-[#C47F17] p-[4px] rounded-full">TRADICIONAL</span>
@@ -109,14 +144,20 @@
                     </div>
                     <h2 class="text-[20px] font-extrabold font-">Latte</h2>
                     <p class="prod_desc text-[14px] font- text-[#8D8686] w-[216px] h-[36px] leading-[130%] text-center">Uma dose de café expresso com o dobro de leite e espuma cremosa</p>
-                    <div><span class="text-[14px]">R$ </span><span class=" preco text-[24px] font-bold">9,90</span></div>
-                    <div>
-                        <button>-</button>
-                        <span>1</span>
-                        <button>+</button>
-                    </div>
+                    <main class="flex flex-row">
+                        <div class="mr-[23px]">
+                            <span class="text-[14px]">R$ </span>
+                            <span class=" preco text-[24px] font-bold">9,90</span>
+                        </div>
+                        <div class="rounded-md bg-[#E6E5E5] w-[72px] h-[38px]">
+                            <button class="ml-[8px] my-[12px]"><img src="/Vector (Stroke).png" alt="menos_prod"></button>
+                            <span class="my-[12px]">1</span>
+                            <button class="mr-[8px] my-[12px]"><img src="/Plus.png" alt="mais_prod"></button>
+                        </div>
+                        <button class="rounded-md p-[8px] bg-[#4B2995] ml-[8px]"><img src="/ShoppingCartSimple.png" alt="carrinho_prod"></button>
+                    </main>
                 </div>
-                <div class="produto width-[256px] height-[310px] bg-[#F3F2F2] rounded-tr-lg rounded-bl-lg m-[32px]">
+                <div class="produto width-[256px] height-[310px] bg-[#F3F2F2] rounded-tr-lg rounded-bl-lg m-[32px]"><!-- 1 Produto -->
                     <img src="/imagens2/Cappucino.png" alt="cappucino" class="-mt-[20px]">
                     <div class="flex flex-row m-[14px]">
                         <span class="classificar1 bg-[#F1E9C9] text-[10px] font-bold text-[#C47F17] p-[4px] rounded-full">TRADICIONAL</span> 
@@ -125,31 +166,43 @@
                     
                     <h2 class="text-[20px] font-extrabold font-">Capuccino</h2>
                     <p class="prod_desc text-[14px] font- text-[#8D8686] w-[216px] h-[36px] leading-[130%] text-center">Bebida com canela feita de doses iguais de café, leite e espuma</p>
-                    <div><span class="text-[14px]">R$ </span><span class=" preco text-[24px] font-bold">9,90</span></div>
-                    <div>
-                        <button>-</button>
-                        <span>1</span>
-                        <button>+</button>
-                    </div>
+                    <main class="flex flex-row">
+                        <div class="mr-[23px]">
+                            <span class="text-[14px]">R$ </span>
+                            <span class=" preco text-[24px] font-bold">9,90</span>
+                        </div>
+                        <div class="rounded-md bg-[#E6E5E5] w-[72px] h-[38px]">
+                            <button class="ml-[8px] my-[12px]"><img src="/Vector (Stroke).png" alt="menos_prod"></button>
+                            <span class="my-[12px]">1</span>
+                            <button class="mr-[8px] my-[12px]"><img src="/Plus.png" alt="mais_prod"></button>
+                        </div>
+                        <button class="rounded-md p-[8px] bg-[#4B2995] ml-[8px]"><img src="/ShoppingCartSimple.png" alt="carrinho_prod"></button>
+                    </main>
                 </div>
-                <div class="produto width-[256px] height-[310px] bg-[#F3F2F2] rounded-tr-lg rounded-bl-lg m-[32px]">
+                <div class="produto width-[256px] height-[310px] bg-[#F3F2F2] rounded-tr-lg rounded-bl-lg m-[32px]"><!-- 1 Produto -->
                     <img src="/imagens2/Machiatto.png" alt="machiatto" class="-mt-[20px]">
                     <div>
                         <span class="classificar1 bg-[#F1E9C9] text-[10px] font-bold text-[#C47F17] p-[4px] rounded-full">TRADICIONAL</span> 
-                        <span class="classificar1 bg-[#F1E9C9] text-[10px] font-bold text-[#C47F17] p-[4px]rounded-full">COM LEITE</span>
+                        <span class="classificar1 bg-[#F1E9C9] text-[10px] font-bold text-[#C47F17] p-[4px] rounded-full">COM LEITE</span>
                     </div>
                     <h2 class="text-[20px] font-extrabold font-">Machiatto</h2>
-                    <p class="prod_desc text-[14px] font- text-[#8D8686] w-[216px] h-[36px] leading-[130%] text-center">Café expresso misturado com um pouco de leite quente e espuma></p>
-                    <div><span class="text-[14px]">R$ </span><span class=" preco text-[24px] font-bold">9,90</span></div>
-                    <div>
-                        <button>-</button>
-                        <span>1</span>
-                        <button>+</button>
-                    </div>
+                    <p class="prod_desc text-[14px] font- text-[#8D8686] w-[216px] h-[36px] leading-[130%] text-center">Café expresso misturado com um pouco de leite quente e espuma</p>
+                    <main class="flex flex-row">
+                        <div class="mr-[23px]">
+                            <span class="text-[14px]">R$ </span>
+                            <span class=" preco text-[24px] font-bold">9,90</span>
+                        </div>
+                        <div class="rounded-md bg-[#E6E5E5] w-[72px] h-[38px]">
+                            <button class="ml-[8px] my-[12px]"><img src="/Vector (Stroke).png" alt="menos_prod"></button>
+                            <span class="my-[12px]">1</span>
+                            <button class="mr-[8px] my-[12px]"><img src="/Plus.png" alt="mais_prod"></button>
+                        </div>
+                        <button class="rounded-md p-[8px] bg-[#4B2995] ml-[8px]"><img src="/ShoppingCartSimple.png" alt="carrinho_prod"></button>
+                    </main>
                 </div>
             </main>
-            <main class="produtos4 flex flex-row m-[40px]">
-                <div class="produto width-[256px] height-[310px] bg-[#F3F2F2] rounded-tr-lg rounded-bl-lg m-[32px]">
+            <main class="produtos4 flex flex-row m-[40px]"><!-- 4 Produtos -->
+                <div class="produto width-[256px] height-[310px] bg-[#F3F2F2] rounded-tr-lg rounded-bl-lg m-[32px]"><!-- 1 Produto -->
                     <img src="/imagens2/Mocaccino.png" alt="mocaccino" class="-mt-[20px]">
                     <div class="flex flex-row m-[14px]">
                         <span class="classificar1 bg-[#F1E9C9] text-[10px] font-bold text-[#C47F17] p-[4px] rounded-full">TRADICIONAL</span> 
@@ -157,14 +210,21 @@
                     </div>
                     <h2 class="text-[20px] font-extrabold font-">Mocaccino</h2>
                     <p class="prod_desc text-[14px] font- text-[#8D8686] w-[216px] h-[36px] leading-[130%] text-center">Café expresso com calda de chocolate, pouco leite e espuma</p>
-                    <div><span class="text-[14px]">R$ </span><span class=" preco text-[24px] font-bold">9,90</span></div>
-                    <div>
-                        <button>-</button>
-                        <span>1</span>
-                        <button>+</button>
-                    </div>
+                    <main class="flex flex-row">
+                        <div class="mr-[23px]">
+                            <span class="text-[14px]">R$ </span>
+                            <span class=" preco text-[24px] font-bold">9,90</span>
+                        </div>
+                        <div class="rounded-md bg-[#E6E5E5] w-[72px] h-[38px]">
+                            <button class="ml-[8px] my-[12px]"><img src="/Vector (Stroke).png" alt="menos_prod"></button>
+                            <span class="my-[12px]">1</span>
+                            <button class="mr-[8px] my-[12px]"><img src="/Plus.png" alt="mais_prod"></button>
+                        </div>
+                        <button class="rounded-md p-[8px] bg-[#4B2995] ml-[8px]"><img src="/ShoppingCartSimple.png" alt="carrinho_prod"></button>
+                    </main>
                 </div>
-                <div class="produto width-[256px] height-[310px] bg-[#F3F2F2] rounded-tr-lg rounded-bl-lg m-[32px]">
+
+                <div class="produto width-[256px] height-[310px] bg-[#F3F2F2] rounded-tr-lg rounded-bl-lg m-[32px]"><!-- 1 Produto -->
                     <img src="/imagens2/Choco quente.png" alt="chocolatequente" class="-mt-[20px]">
                     <div class="flex flex-row m-[14px]">
                         <span class="classificar1 bg-[#F1E9C9] text-[10px] font-bold text-[#C47F17] p-[4px] rounded-full">ESPECIAL</span>
@@ -172,14 +232,21 @@
                     </div>
                     <h2 class="text-[20px] font-extrabold font-">Chocolate Quente</h2>
                     <p class="prod_desc text-[14px] font- text-[#8D8686] w-[216px] h-[36px] leading-[130%] text-center">Bebida feita com chocolate dissolvido no leite quente e café</p>
-                    <div><span class="text-[14px]">R$ </span><span class=" preco text-[24px] font-bold">9,90</span></div>
-                    <div>
-                        <button>-</button>
-                        <span>1</span>
-                        <button>+</button>
-                    </div>
+                    <main class="flex flex-row">
+                        <div class="mr-[23px]">
+                            <span class="text-[14px]">R$ </span>
+                            <span class=" preco text-[24px] font-bold">9,90</span>
+                        </div>
+                        <div class="rounded-md bg-[#E6E5E5] w-[72px] h-[38px]">
+                            <button class="ml-[8px] my-[12px]"><img src="/Vector (Stroke).png" alt="menos_prod"></button>
+                            <span class="my-[12px]">1</span>
+                            <button class="mr-[8px] my-[12px]"><img src="/Plus.png" alt="mais_prod"></button>
+                        </div>
+                        <button class="rounded-md p-[8px] bg-[#4B2995] ml-[8px]"><img src="/ShoppingCartSimple.png" alt="carrinho_prod"></button>
+                    </main>
                 </div>
-                <div class="produto width-[256px] height-[310px] bg-[#F3F2F2] rounded-tr-lg rounded-bl-lg m-[32px]">
+
+                <div class="produto width-[256px] height-[310px] bg-[#F3F2F2] rounded-tr-lg rounded-bl-lg m-[32px]"><!-- 1 Produto -->
                     <img src="/imagens2/Cubano.png" alt="cubano" class="-mt-[20px]">
                     <div class="flex flex-row m-[14px]">
                         <span class="classificar1 bg-[#F1E9C9] text-[10px] font-bold text-[#C47F17] p-[4px] rounded-full">ESPECIAL</span>
@@ -188,40 +255,60 @@
                     </div>
                     <h2 class="text-[20px] font-extrabold font-">Cubano</h2>
                     <p class="prod_desc text-[14px] font- text-[#8D8686] w-[216px] h-[36px] leading-[130%] text-center">Drink gelado de café expresso com rum, creme de leite e hortelã</p>
-                    <div><span class="text-[14px]">R$ </span><span class=" preco text-[24px] font-bold">9,90</span></div>
-                    <div>
-                        <button>-</button>
-                        <span>1</span>
-                        <button>+</button>
-                    </div>
+                    <main class="flex flex-row">
+                        <div class="mr-[23px]">
+                            <span class="text-[14px]">R$ </span>
+                            <span class=" preco text-[24px] font-bold">9,90</span>
+                        </div>
+                        <div class="rounded-md bg-[#E6E5E5] w-[72px] h-[38px]">
+                            <button class="ml-[8px] my-[12px]"><img src="/Vector (Stroke).png" alt="menos_prod"></button>
+                            <span class="my-[12px]">1</span>
+                            <button class="mr-[8px] my-[12px]"><img src="/Plus.png" alt="mais_prod"></button>
+                        </div>
+                        <button class="rounded-md p-[8px] bg-[#4B2995] ml-[8px]"><img src="/ShoppingCartSimple.png" alt="carrinho_prod"></button>
+                    </main>
                 </div>
-                <div class="produto width-[256px] height-[310px] bg-[#F3F2F2] rounded-tr-lg rounded-bl-lg m-[32px]">
+
+                <div class="produto width-[256px] height-[310px] bg-[#F3F2F2] rounded-tr-lg rounded-bl-lg m-[32px]"><!-- 1 Produto -->
                     <img src="/imagens2/havaiano.png" alt="havaiano" class="-mt-[20px]">
                     <span class="classificar1 bg-[#F1E9C9] text-[10px] font-bold text-[#C47F17] p-[4px] rounded-full">ESPECIAL</span>
                     <h2 class="text-[20px] font-extrabold font-">Havaiano</h2>
                     <p class="prod_desc text-[14px] font- text-[#8D8686] w-[216px] h-[36px] leading-[130%] text-center">Bebida adocicada preparada com café e leite de coco</p>
-                    <div><span class="text-[14px]">R$ </span><span class=" preco text-[24px] font-bold">9,90</span></div>
-                    <div>
-                        <button>-</button>
-                        <span>1</span>
-                        <button>+</button>
-                    </div>
+                    <main class="flex flex-row">
+                        <div class="mr-[23px]">
+                            <span class="text-[14px]">R$ </span>
+                            <span class=" preco text-[24px] font-bold">9,90</span>
+                        </div>
+                        <div class="rounded-md bg-[#E6E5E5] w-[72px] h-[38px]">
+                            <button class="ml-[8px] my-[12px]"><img src="/Vector (Stroke).png" alt="menos_prod"></button>
+                            <span class="my-[12px]">1</span>
+                            <button class="mr-[8px] my-[12px]"><img src="/Plus.png" alt="mais_prod"></button>
+                        </div>
+                        <button class="rounded-md p-[8px] bg-[#4B2995] ml-[8px]"><img src="/ShoppingCartSimple.png" alt="carrinho_prod"></button>
+                    </main>
                 </div>
+
             </main>
-            <main class="produtos4 flex flex-row m-[40px]">
-                <div class="produto width-[256px] height-[310px] bg-[#F3F2F2] rounded-tr-lg rounded-bl-lg m-[32px]">
+            <main class="produtos4 flex flex-row m-[40px]"><!-- 4 Produtos -->
+                <div class="produto width-[256px] height-[310px] bg-[#F3F2F2] rounded-tr-lg rounded-bl-lg m-[32px]"><!-- 1 Produto -->
                     <img src="/imagens2/arabe.png" alt="arabe" class="-mt-[20px]">
                     <span class="classificar1 bg-[#F1E9C9] text-[10px] font-bold text-[#C47F17] p-[4px] rounded-full">ESPECIAL</span>
                     <h2 class="text-[20px] font-extrabold font-">Árabe</h2>
                     <p class="prod_desc text-[14px] font- text-[#8D8686] w-[216px] h-[36px] leading-[130%] text-center">Bebida preparada com grãos de café árabe e especiarias</p>
-                    <div><span class="text-[14px]">R$ </span><span class=" preco text-[24px] font-bold">9,90</span></div>
-                    <div>
-                        <button>-</button>
-                        <span>1</span>
-                        <button>+</button>
-                    </div>
+                    <main class="flex flex-row">
+                        <div class="mr-[23px]">
+                            <span class="text-[14px]">R$ </span>
+                            <span class=" preco text-[24px] font-bold">9,90</span>
+                        </div>
+                        <div class="rounded-md bg-[#E6E5E5] w-[72px] h-[38px]">
+                            <button class="ml-[8px] my-[12px]"><img src="/Vector (Stroke).png" alt="menos_prod"></button>
+                            <span class="my-[12px]">1</span>
+                            <button class="mr-[8px] my-[12px]"><img src="/Plus.png" alt="mais_prod"></button>
+                        </div>
+                        <button class="rounded-md p-[8px] bg-[#4B2995] ml-[8px]"><img src="/ShoppingCartSimple.png" alt="carrinho_prod"></button>
+                    </main>
                 </div>
-                <div class="produto width-[256px] height-[310px] bg-[#F3F2F2] rounded-tr-lg rounded-bl-lg m-[32px]">
+                <div class="produto width-[256px] height-[310px] bg-[#F3F2F2] rounded-tr-lg rounded-bl-lg m-[32px]"><!-- 1 Produto -->
                     <img src="/imagens2/irlandes.png" alt="irlandes" class="-mt-[20px]">
                     <div>
                         <span class="classificar1 bg-[#F1E9C9] text-[10px] font-bold text-[#C47F17] p-[4px] rounded-full">ESPECIAL</span> 
@@ -229,15 +316,21 @@
                     </div>
                     <h2 class="text-[20px] font-extrabold font-">Irlândes</h2>
                     <p class="prod_desc text-[14px] font- text-[#8D8686] w-[216px] h-[36px] leading-[130%] text-center">Bebida a base de café, uísque irlandês, açúcar e chantilly</p>
-                    <div><span class="text-[14px]">R$ </span><span class=" preco text-[24px] font-bold">9,90</span></div>
-                    <div>
-                        <button>-</button>
-                        <span>1</span>
-                        <button>+</button>
-                    </div>
+                    <main class="flex flex-row">
+                        <div class="mr-[23px]">
+                            <span class="text-[14px]">R$ </span>
+                            <span class=" preco text-[24px] font-bold">9,90</span>
+                        </div>
+                        <div class="rounded-md bg-[#E6E5E5] w-[72px] h-[38px]">
+                            <button class="ml-[8px] my-[12px]"><img src="/Vector (Stroke).png" alt="menos_prod"></button>
+                            <span class="my-[12px]">1</span>
+                            <button class="mr-[8px] my-[12px]"><img src="/Plus.png" alt="mais_prod"></button>
+                        </div>
+                        <button class="rounded-md p-[8px] bg-[#4B2995] ml-[8px]"><img src="/ShoppingCartSimple.png" alt="carrinho_prod"></button>
+                    </main>
                 </div>
-                <div></div>
-                <div></div>
+                <div></div><!-- 1 Produto -->
+                <div></div><!-- 1 Produto -->
             </main>
         </main>
     </section>
