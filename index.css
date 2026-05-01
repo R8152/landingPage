@@ -13,6 +13,10 @@ header{
     padding: 32px 160px;
     justify-content: space-between;
 }
+header i{
+    color: #8047F8;
+    font-size: 24px;
+}
 .div-header-right{
     display: flex;
     padding: 8px;
@@ -32,12 +36,13 @@ header{
     padding: 8px;
     border-radius: 6px;
 }
-section{
+.section{
     display: flex;
     padding: 0 160px;
-    justify-content: space-around;
+    justify-content: space-between;
     background-image: url(/Background.png);
     background-size: cover;
+    flex-wrap: wrap-reverse;
 }
 .main_informar{
     display: flex;
@@ -103,7 +108,10 @@ h1{width: 24ch}
 .v1,.v2,.v3,.v4{
     display: flex;
     text-wrap: nowrap;
-    align-items: 12px;
+    align-items: center;
+}
+.text-v{
+    padding-left: 10px;
 }
 .img-banner{
     padding: 8px;
@@ -116,10 +124,28 @@ h1{width: 24ch}
 }
 .produtos{
     display: flex;
+    justify-content: center;
     background-color: #C47F17;
     text-decoration: none;
     padding: 10px;
     border-radius: 6px;
     color: black;
     margin-top: 15px;
+}
+@media (width <= 1395px){
+    .section{
+        justify-content: center;
+    }
+}
+@media (width <= 768px){
+    header{
+        padding: 32px 160px;
+    }
+}
+@media (width <= 375px){
+    header i{
+        font-size: 24px;
+        color: #8047F8;
+    }
+
 }

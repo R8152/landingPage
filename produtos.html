@@ -13,11 +13,15 @@
     <title>Coffee Delivery - Produtos</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="/produtos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header class="flex justify-between py-8 px-40 bg-white sticky top-0 z-50 shadow-2g">
         <img src="/imagens/Logo.svg" alt="Logo Coffee Delivery">
-        <div class="flex gap-3">
+        <div class="sm:hidden text-2x1 text-[#8047F8]">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="hidden sm:flex gap-3">
             <div class="bg-[#EBE5F9] rounded-md flex items-center gap-1 p-2">
                 <img class="absolute-right-20" src="/imagens/Vector (7).png" alt="Ícone Localização">
                 <span>Porto Alegre, RS</span>
@@ -27,11 +31,10 @@
             </button>
         </div>
     </header>
-    <main class="mx-auto ms-[160px] px-40 pt-10">
+    <main class="mx-auto ms-[160px] px-5 md:px-10 lg:px-30 2x1:px-40 pt-10">
         <section>
             <h1 class="text-[32px] font-(family-name:--font-baloo) font-extrabold mb-[54px]">Nossos cafés</h1>
-            <main class="grid grid-cols-4 gap-8"> <!-- 4 Produtos -->
-
+            <main class="grid grid-cols-1 min-[602px]:grid-cols-2 min-[896px]:grid-cols-3 2x1:grid-cols-4 gap-8 mb-[40px] justify-items-center"> <!-- 4 Produtos -->
                <div class="w-[256px] bg-[#F3F2F2] relative pt-25 rounded-tr-4xl rounded-bl-4xl p-5 text-center"><!-- Expresso Tradicional -->
                     <img src="/imagens2/Imagem 1.png" alt="img_expressotrad" class="absolute right-18 -top-6">
                     <span class="bg-[#F1E9C9] text-[#C47F17] text-[10px] font-bold px-2 py-1 mb-[112px] rounded-full uppercase">tradicional</span>
@@ -100,7 +103,7 @@
                 </div>
 
             </main>
-            <main class="produtos4 grid grid-cols-4 gap-8"><!-- 4 Produtos -->
+            <main class="grid grid-cols-4 gap-8 mb-[40px]"><!-- 4 Produtos -->
                 
                 <div class="w-[256px] bg-[#F3F2F2] relative pt-25 rounded-tr-4xl rounded-bl-4xl p-5 text-center"><!-- Café com Leite -->
                     <img src="/imagens2/Imagem5.png" alt="cafeleite" class="absolute right-18 -top-6">
@@ -170,7 +173,7 @@
                 </div>
 
             </main>
-            <main class="produtos4 grid grid-cols-4 gap-8"><!-- 4 Produtos -->
+            <main class="grid grid-cols-4 gap-8 mb-[40px]"><!-- 4 Produtos -->
 
                 <div class="w-[256px] bg-[#F3F2F2] relative pt-25 rounded-tr-4xl rounded-bl-4xl p-5 text-center"><!-- Mocaccino -->
                     <img src="/imagens2/Mocaccino.png" alt="mocaccino" class="absolute right-18 -top-6">
@@ -237,7 +240,7 @@
                 </div>
 
             </main>
-            <main class="produtos4 grid grid-cols-4 gap-8"><!-- 4 Produtos -->
+            <main class="grid grid-cols-4 gap-8 mb-[40px]"><!-- 4 Produtos -->
 
                 <div class="w-[256px] bg-[#F3F2F2] relative pt-25 rounded-tr-4xl rounded-bl-4xl p-5 text-center"><!-- Árabe -->
                     <img src="/imagens2/arabe.png" alt="arabe" class="absolute right-18 -top-6">
