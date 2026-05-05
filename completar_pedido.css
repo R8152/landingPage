@@ -67,10 +67,9 @@ header{
 }
 .cep{
     text-align: start;
-    margin-top: 12px;
-    margin-left: 12px;
     color: #8D8686;
     line-height: 130%;
+    text-wrap: nowrap;
 }
 .info2{
     height: 42px;
@@ -78,12 +77,13 @@ header{
     background-color: #EDEDED;
     border: 1px solid #E6E5E5;
     border-radius: 4px;
-    margin-bottom: 16px;
     padding: 12px;
 }
 .rua{
-    margin: 12px;
+    text-align: start;
     color: #8D8686;
+    line-height: 130%;
+    text-wrap: nowrap;
 }
 .info3{
     height: 42px;
@@ -100,6 +100,8 @@ header{
     background-color: #EDEDED;
     border: 1px solid #E6E5E5;
     border-radius: 4px;
+    text-wrap: wrap;
+    padding-top: 2%;
 }
 .numero{
     margin: 10px 12px 12px 12px;
@@ -147,6 +149,9 @@ header{
     border: 1px solid #E6E5E5;
     border-radius: 4px;
     line-height: 130%;
+    text-wrap: nowrap;
+    padding-top: 1.5%;
+    padding-left: 2%;
 }
 .i42{
     height: 42px;
@@ -156,6 +161,9 @@ header{
     border: 1px solid #E6E5E5;
     border-radius: 4px;
     line-height: 130%;
+    text-wrap: nowrap;
+    padding-top: 1.5%;
+    padding-left: 2%;
 }
 .i43{
     height: 42px;
@@ -165,6 +173,69 @@ header{
     border: 1px solid #E6E5E5;
     border-radius: 4px;
     line-height: 130%;
+    text-wrap: nowrap;
+    padding-top: 1.5%;
+    padding-left: 2%;
+}
+.pagamento{
+    height: 207px;
+    width: 640px;
+    margin-top: 12px;;
+    background-color: #F3F2F2;
+}
+.pagar{
+    display: flex;
+    flex-direction: row;
+    padding: 40px 40px 0px;
+}
+.img-pagar{
+    padding-right: 8px;
+}
+.info-pagar{
+    display: flex;
+    flex-direction: column;
+}
+.text1-pagar{
+    font-size: 16px;
+    color: #403937;
+}
+.text2-pagar{
+    font-size: 14px;
+    color: #403937;
+}
+.modos-pagar{
+    height: 51px;
+    width: 560px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 32px 32px 40px;
+}
+.modo-pagar{
+    height: 51px;
+    width: 178.67px;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-direction: row;
+    background-color: #E6E5E5;
+    border-radius: 6px;
+}
+.img-modo{
+    width: 12px;
+    height: 12px;
+    margin-left: 10px;
+}
+.credito, .debito, .dinheiro{
+    font-size: 12px;
+    color: #574F4D;
+    text-transform: uppercase;
+    padding-left: 12px;
+}
+.text-selected{
+    font-size: 18px;
+    font-weight: bold;
+
 }
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss"

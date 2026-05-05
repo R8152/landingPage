@@ -123,23 +123,30 @@ h1{width: 24ch}
     flex-direction: row;
 }
 .produtos{
-    display: flex;
-    justify-content: center;
+    display: block;
     background-color: #C47F17;
     text-decoration: none;
     padding: 10px;
     border-radius: 6px;
     color: black;
     margin-top: 15px;
+    margin-left: 45%;
+    width: fit-content;
 }
 @media (width <= 1395px){
     .section{
         justify-content: center;
     }
+    .produtos{
+        margin-left: 40%;
+    }
 }
 @media (width <= 768px){
     header{
         padding: 32px 160px;
+    }
+    .produtos{
+        margin-left: 35%;
     }
 }
 @media (width <= 375px){
