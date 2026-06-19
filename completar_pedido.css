@@ -235,7 +235,8 @@ header{
 .text-selected{
     font-size: 18px;
     font-weight: bold;
-
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss"
